@@ -1,11 +1,17 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class HeadsorTails {
     public static void main(String[] args) {
         Random random = new Random();
+        Scanner sc = new Scanner(System.in);
         int he=0;
         int ta=0;
         int ar,br;
+        System.out.printf("Who are you?\n> ");
+        String name = sc.next();
+        sc.close();
+        System.out.println("Hello, "+name+"!");
         System.out.println("Tossing a coin...");
         for(int i=1; i<=3; i++){
             System.out.printf("Round "+i+": ");
