@@ -30,7 +30,7 @@ public class HeadsorTails {
             }
         }
         System.out.println("Heads: "+he+", Tails: "+ta);
-        if(he>ta){ System.out.println("You won"); }
-        else{ System.out.println("You lost"); }
+        if(he>ta){ System.out.println(name+" won!"); }
+        else{ System.out.println(name+" lost!"); }
     }
 }
